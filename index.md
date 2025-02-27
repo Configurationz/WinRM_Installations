@@ -2,7 +2,7 @@
 
 * So, here's an extension we need to configure while preparing a Terraform template
 
-```t
+```tcl
 ################################################################################
 # The Custom Script extension runs the publicly available Ansible script,
 # that will configure a Windows Server 2019 Datacenter correctly to accept  
