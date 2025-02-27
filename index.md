@@ -39,7 +39,8 @@ resource "azurerm_virtual_machine_extension" "secure_winrm" {
 ```
 
 * Here, we're using the Custom Script extension to run a PowerShell script that will configure the Windows Servers
-* Also, one thing to note is we're using a variable called `var.ansible_winrm_file_uri` so this variable will be able to store the `ConfigureRemotingForAnsible.ps1` value 
+
+* Also, one thing to note is we're using a variable called _`var.ansible_winrm_file_uri`_ so this variable will be able to store the *`ConfigureRemotingForAnsible.ps1`* value 
 
 
 ## References ~
