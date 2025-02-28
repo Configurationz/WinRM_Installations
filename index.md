@@ -43,6 +43,14 @@ resource "azurerm_virtual_machine_extension" "secure_winrm" {
 * Also, one thing to note is we're using a variable called _`var.ansible_winrm_file_uri`_ so this variable will be able to store the *`ConfigureRemotingForAnsible.ps1`* value 
 
 
+<p align="center">
+      <img src="img/ansible_icon.png" align="right">
+</p>
+
+
+
 ## References ~
 
 > _**[ConfigureRemotingForAnsible.ps1](https://raw.githubusercontent.com/ansible/ansible-documentation/c84880386a2f123ad5ee999bccfea4a502868663/examples/scripts/ConfigureRemotingForAnsible.ps1){:target="_blank"}**_
+
+
